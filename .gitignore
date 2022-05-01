@@ -1,0 +1,11 @@
+# Ignore files
+.DS_Store
+**/.DS_Store
+sass.DS_Store
+# prepros.config
+/.vscode
+# src/sass
+# /node_modules
+# gulpfile.js
+# package-lock.json
+# package.json
