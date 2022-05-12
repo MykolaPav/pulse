@@ -8,12 +8,14 @@
 @import 'block/titles';
 @import 'block/forms';
 @import 'block/carousel';
+@import 'block/catalog';
 
 * {
     font-family: "MuseoModern", sans-serif;
   }
 
 .container {
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
