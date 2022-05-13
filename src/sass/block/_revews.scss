@@ -1,0 +1,35 @@
+
+
+
+.review {
+    // Отзывы
+    padding-bottom: 50px;
+    &-item {
+        display: flex;
+        min-height: 220px;
+        margin-top: 60px;
+        img {
+            width: 169px;
+            height: 169px;
+        }
+        &__info {
+            margin-left: 60px;
+        }
+        &__title{
+            font-weight: 700;
+            font-size: 18px;
+            color: $main_black;
+        }
+        &__subtitle{
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+        }
+        &__descr{
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            color: $main_black;
+        }
+    }
+}

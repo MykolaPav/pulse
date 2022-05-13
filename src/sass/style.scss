@@ -2,13 +2,22 @@
 @import 'base/mixins';
 @import 'block/promo';
 @import 'block/header';
+@import 'block/benefits';
 @import 'block/buttons';
+@import 'block/consultation';
+@import 'block/titles';
+@import 'block/forms';
+@import 'block/carousel';
+@import 'block/catalog';
+@import 'block/revews';
+@import 'block/footer';
 
 * {
     font-family: "MuseoModern", sans-serif;
   }
 
 .container {
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
